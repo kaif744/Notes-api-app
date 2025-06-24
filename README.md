@@ -49,6 +49,7 @@ cd Notes-api-app
 npm install
 
 Create a .env file:
+env
 PORT=5000
 MONGO_URI=mongodb+srv://<your-db-uri>
 

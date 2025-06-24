@@ -65,11 +65,15 @@ Create Note
 Request->
 -Method: POST
 -URL: http://localhost:5000/api/notes
--Body (JSON):{
+-Body (JSON):
+```json{
   "title": "My First Note",
   "content": "This is a test note."
 }
+```
  Response->
+
+ ```json
  {
   "_id": "665ecaf81d5f230e98aa24a2",
   "title": "Meeting Notes",
@@ -78,4 +82,4 @@ Request->
   "updatedAt": "2025-06-24T10:35:00.123Z",
   "__v": 0
 }
-
+```

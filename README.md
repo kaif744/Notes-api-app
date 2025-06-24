@@ -66,7 +66,8 @@ Request->
 -Method: POST
 -URL: http://localhost:5000/api/notes
 -Body (JSON):
-```json{
+```json
+{
   "title": "My First Note",
   "content": "This is a test note."
 }
